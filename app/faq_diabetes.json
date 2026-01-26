@@ -1,0 +1,42 @@
+[
+  {
+    "frage": "Was ist Diabetes?",
+    "antwort": "Diabetes ist eine chronische Erkrankung, bei der der Blutzuckerspiegel zu hoch ist."
+  },
+  {
+    "frage": "Wie erkenne ich Diabetes?",
+    "antwort": "Häufige Symptome sind Durst, häufiges Wasserlassen und Müdigkeit."
+  },
+  {
+    "frage": "Wie kann ich mein Diabetes-Risiko senken?",
+    "antwort": "Gesunde Ernährung, regelmäßige Bewegung und Gewichtsreduktion helfen, das Risiko zu senken."
+  },
+  {
+    "frage": "Was bedeutet mein Blutzuckerwert?",
+    "antwort": "Ein Wert über 126 mg/dL im Nüchternzustand kann auf Diabetes hindeuten."
+  },
+  {
+    "frage": "Ist Diabetes heilbar?",
+    "antwort": "Diabetes Typ 1 ist nicht heilbar, Typ 2 kann oft durch Lebensstil verbessert werden."
+  },
+  {
+    "frage": "Welche Lebensmittel sollte ich meiden?",
+    "antwort": "Zuckerhaltige und stark verarbeitete Lebensmittel solltest du vermeiden."
+  },
+  {
+    "frage": "Kann ich mit Diabetes Sport machen?",
+    "antwort": "Ja, regelmäßige Bewegung ist wichtig und hilft beim Blutzuckermanagement."
+  },
+  {
+    "frage": "Was sind die Folgen unbehandelter Diabetes?",
+    "antwort": "Herzkrankheiten, Nierenschäden und Sehstörungen können Folgen sein."
+  },
+  {
+    "frage": "Was bedeutet BMI?",
+    "antwort": "BMI ist ein Maß für dein Körpergewicht im Verhältnis zur Größe und gibt Aufschluss über Übergewicht."
+  },
+  {
+    "frage": "Wie oft sollte ich meinen Blutzucker messen?",
+    "antwort": "Das hängt von deinem Diabetes-Typ und Behandlungsplan ab, sprich mit deinem Arzt."
+  }
+]
