@@ -1,0 +1,10 @@
+** pip install pandas 
+** pip install numpy
+** pip install matplotlib 
+** pip install scikit-learn
+** pip install openai
+** pip install streamlit 
+#  Pima Indians Diabetes Dataset::::diabetes.csv von Kaggle herunterladen https://www.kaggle.com/code/paultimothymooney/predict-diabetes-from-medical-records
+
+#alterklasse column beigefügt in preprossing.py für visualisierung (EDA ) und danach gelöscht wird in prediction.py ------------->
+#weil RandomForest nur für numerische Daten
