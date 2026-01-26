@@ -1,117 +1,82 @@
-# My_Project_Diabetes-Patient_Data_Analyse
-
-# Diabetes Patient Data Analyse mit Machine Learning
+# My Project: Diabetes Patient Data Analyse
 
 ## Projektübersicht
-Dieses Projekt beschäftigt sich mit der Analyse von Patientendaten im Zusammenhang mit Diabetes.  
-Ziel ist es, mithilfe von **Datenanalyse und Machine Learning** Muster zu erkennen und vorherzusagen, ob eine Person an Diabetes leidet.
+Dieses Projekt analysiert medizinische Patientendaten im Zusammenhang mit Diabetes.  
+Ziel ist es, mithilfe von **Datenanalyse und Machine Learning** Muster zu erkennen und vorherzusagen, ob eine Person an Diabetes leidet.  
+Der Workflow umfasst die Datenvorverarbeitung, explorative Datenanalyse (EDA), Modellierung und Evaluation.
 
-Das Projekt bildet einen **kompletten Data-Science-Workflow** ab – von der Datenvorverarbeitung über explorative Datenanalyse (EDA) bis hin zur Modellierung und Auswertung.
+## Zielsetzung
+- Analyse medizinischer Patientendaten  
+- Identifikation relevanter Zusammenhänge zwischen Merkmalen  
+- Aufbau eines Machine-Learning-Modells zur Diabetes-Vorhersage  
+- Bewertung der Modellleistung anhand gängiger Metriken  
+- Verständliche Aufbereitung der Ergebnisse  
 
----
-
-## Zielsetzung des Projekts
-Die Hauptziele dieses Projekts sind:
-
-- Analyse medizinischer Patientendaten
-- Erkennen relevanter Zusammenhänge zwischen Merkmalen
-- Aufbau eines Machine-Learning-Modells zur Diabetes-Vorhersage
-- Bewertung der Modellleistung
-- Verständliche Aufbereitung der Ergebnisse
-
-Dieses Projekt dient sowohl **Lernzwecken** als auch als **Praxisbeispiel** für KI- und Data-Science-Anwendungen im Gesundheitsbereich.
-
----
+Dieses Projekt dient sowohl **Lernzwecken** als auch als Praxisbeispiel für KI- und Data-Science-Anwendungen im Gesundheitsbereich.
 
 ## Datensatz
-Der verwendete Datensatz enthält medizinische Messwerte von Patientinnen und Patienten.
+Der Datensatz enthält medizinische Messwerte von Patient:innen.
 
-### Enthaltene Merkmale (Features):
-- Pregnancies – Anzahl der Schwangerschaften
-- Glucose – Glukosekonzentration im Blut
-- BloodPressure – Blutdruck
-- SkinThickness – Hautfaltendicke
-- Insulin – Insulinwert
-- BMI – Body-Mass-Index
-- DiabetesPedigreeFunction – genetische Diabetes-Wahrscheinlichkeit
-- Age – Alter
+### Enthaltene Merkmale (Features)
+- Pregnancies – Anzahl der Schwangerschaften  
+- Glucose – Glukosekonzentration im Blut  
+- BloodPressure – Blutdruck  
+- SkinThickness – Hautfaltendicke  
+- Insulin – Insulinwert  
+- BMI – Body-Mass-Index  
+- DiabetesPedigreeFunction – genetische Diabetes-Wahrscheinlichkeit  
+- Age – Alter  
 
-### Zielvariable:
-- **Outcome**
-  - `0` = Kein Diabetes
-  - `1` = Diabetes
+### Zielvariable
+- Outcome: `0` = Kein Diabetes, `1` = Diabetes
 
----
+## Datenvorverarbeitung
+- Überprüfung auf fehlende oder unrealistische Werte  
+- Bereinigung und Transformation der Daten  
+- Vorbereitung der Daten für Machine-Learning-Modelle  
 
-##  Datenvorverarbeitung
-Vor der Modellierung wurden die Daten sorgfältig vorbereitet:
+Die Datenqualität ist entscheidend für die Modellleistung.
 
-- Überprüfung auf fehlende oder unrealistische Werte
-- Bereinigung und Transformation der Daten
-- Vorbereitung der Daten für die Modellierung
+## Explorative Datenanalyse (EDA)
+- Analyse der Verteilungen einzelner Merkmale  
+- Untersuchung von Korrelationen zwischen Features  
+- Identifikation von Ausreißern und Auffälligkeiten  
 
-Diese Schritte sind entscheidend, da die Qualität der Daten einen großen Einfluss auf die Modellleistung hat.
+Ziel der EDA: fundierte Entscheidungen für die Modellwahl und tieferes Verständnis der Daten.
 
----
+## Machine-Learning-Modellierung
+- Aufteilung in Trainings- und Testdaten  
+- Training von Klassifikationsmodellen  
+- Optimierung der Modellparameter  
+- Evaluation der Ergebnisse  
 
-##  Explorative Datenanalyse (EDA)
-In der explorativen Datenanalyse wurden unter anderem:
-
-- Verteilungen der einzelnen Merkmale analysiert
-- Korrelationen zwischen Features untersucht
-- Auffällige Muster und Ausreißer identifiziert
-
-Ziel der EDA war es, ein besseres Verständnis der Daten zu gewinnen und fundierte Entscheidungen für die Modellwahl zu treffen.
-
----
-
-##  Machine Learning Modellierung
-Nach der Datenanalyse wurden verschiedene Machine-Learning-Ansätze verwendet, um Diabetes vorherzusagen.
-
-Typische Schritte dabei:
-- Aufteilung der Daten in Trainings- und Testdaten
-- Training eines Klassifikationsmodells
-- Optimierung der Modellparameter
-- Evaluation der Ergebnisse
-
----
+**Wichtige Erkenntnis:** Glukosewert, BMI und Alter haben den größten Einfluss auf die Diabetes-Vorhersage.
 
 ## Ergebnisse & Evaluation
-Die Modelle wurden anhand gängiger Metriken bewertet, z. B.:
+- Accuracy  
+- Confusion Matrix  
+- Vergleich von tatsächlichen und vorhergesagten Werten  
 
-- Accuracy
-- Confusion Matrix
-- Vergleich zwischen tatsächlichen und vorhergesagten Werten
+Die Modelle zeigen gute Vorhersageleistung und liefern wertvolle Einblicke in die wichtigsten Einflussfaktoren.
 
-Die Ergebnisse zeigen, dass medizinische Merkmale wie **Glukosewert, BMI und Alter** einen starken Einfluss auf die Diabetes-Vorhersage haben.
+## Erkenntnisse & Lernerfahrungen
+- Anwendung des vollständigen Data-Science-Prozesses  
+- Umgang mit medizinischen Datensätzen  
+- Bedeutung von Datenqualität für Machine Learning  
+- Interpretation und kritische Bewertung von Modellen  
+- Verständliche Visualisierung und Kommunikation der Ergebnisse
 
----
-
-##  Erkenntnisse & Lernerfahrungen
-Durch dieses Projekt habe ich:
-
-- Den vollständigen Data-Science-Prozess praktisch angewendet
-- Erfahrung im Umgang mit medizinischen Datensätzen gesammelt
-- Gelernt, wie wichtig Datenqualität für Machine Learning ist
-- Modelle interpretiert und kritisch bewertet
-- Daten verständlich aufbereitet und erklärt
-
----
-
-##  Verwendete Technologien
-- Python
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
+## Verwendete Technologien
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib / Seaborn  
 - Scikit-learn
-- Jupyter Notebook
 
----
-
-
----
-
-
-GitHub: nerozSh  
-
-Dieses Projekt wurde zu Lernzwecken erstellt und dient als Beispiel für KI- und Data-Science-Anwendungen.
+## Projektstruktur (optional für Klarheit)
+- `app/` → Preprocessing- und Utility-Scripts  
+- `data/` → Patientendatensatz  
+- `eda/` → Explorative Datenanalyse  
+- `modeling/` → ML-Modellierung und Evaluation  
+- `requirements.txt` → Python-Abhängigkeiten  
+- `README.md` → Projektbeschreibung
